@@ -11,4 +11,4 @@ sudo sed -i 's/collections.MutableMapping/collections.abc.MutableMapping/g' /usr
 sudo firewall-cmd --permanent --add-port=$port/tcp 
 sudo firewall-cmd --reload
 cd /etc/init.d/
-sudo ./shadowsocks start
+sudo /etc/init.d/shadowsocks start
