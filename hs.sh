@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 port=18002
 pw=haolie
+sudo mkdir /home/temp
+sudo chmod 777 /home/temp
+cd /home/temp
 sudo wget –no-check-certificate -O showInstall.sh https://raw.githubusercontent.com/haolie/yimer/master/showInstall.sh
 sudo chmod +x showInstall.sh
 sudo ./showInstall.sh haolie $pw $port 2>&1 | tee shadowsocks.log
