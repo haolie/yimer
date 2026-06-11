@@ -1,2 +1,2 @@
 # yimer
-personal learn  
+shadows install 
